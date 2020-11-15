@@ -1,0 +1,40 @@
+var a = 10;
+var h = 20;
+
+/**
+ * a: cạnh đáy của 1 hình tam giác
+ * h: chiều cao của tam giác đó
+ * Yêu cầu: khai báo biến s bằng diện tích của hình tam giác này 
+ */
+ 
+// var a = 10;
+var h = 20;
+var s = 1/2 * a *h ;
+console.log (s);
+/**
+ * width: Chiều rộng của 1 hình chữ nhật
+ * height: Chiều dài của hình chữ nhật
+ * Yêu cầu: 
+ * - Khai báo biến s là diện tích của hình chữ nhật này.
+ * - Khai báo biến p là chu vi của hình chữ nhật này.
+ */
+ 
+var width = 10;
+var height = 20;
+var s = width * height 
+var p = (width+height)*2
+console.log(s);
+console.log(p);
+* width: Chiều rộng của 1 hình chữ nhật
+ * height: Chiều dài của hình chữ nhật
+ * Yêu cầu: 
+ * - Khai báo biến s là diện tích của hình chữ nhật này.
+ * - Khai báo biến p là chu vi của hình chữ nhật này.
+ */
+ 
+var width = 10;
+var height = 20;
+var s = width * height 
+var p = (width+height)*2
+console.log(s);
+console.log(p);
