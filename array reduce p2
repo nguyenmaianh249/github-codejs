@@ -1,0 +1,41 @@
+ Given an array of arrays, flatten them into a single array
+
+/**
+ * Example: 
+ * var arrays = [
+ *    ["1", "2", "3"],
+ *    [true],
+ *    [4, 5, 6]
+ *  ];
+ * 
+ * flatten(arrays) // ["1", "2", "3", true, 4, 5, 6];
+ */
+
+function flatten(arr) {
+  var arr1 = ["1","2","3"],
+      arr2 = [true],
+      arr3 = [4,5,6];
+    var arrs = arr1.concat(arr2,arr3);
+     return arrs
+}
+ Count the occurrences of each element inside an array using reduce
+ * @params {array}
+ * @return {object}
+ * Example: 
+ * countOccurrences(['a', 'b', 'c', 'b', 'a']) // { a: 2, b: 2, c: 1 };
+}
+*/
+
+function countOccurrences(arr) {
+  return arr.reduce(function(a, b){
+    var count = 0;
+    for(var i = 0; i < arr.length; i++){
+      if (arr[i] == b) {
+        return count + 1;
+      }
+    }
+});
+}
+console.log(countOccurrences(['a','b','c','b','a']));
+
+
